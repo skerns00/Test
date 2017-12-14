@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'ruby -v'
+                sh '/usr/bin/ruby -v'
             }
         }
     }
